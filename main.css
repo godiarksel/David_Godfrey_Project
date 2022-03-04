@@ -1,15 +1,96 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    text-align: center;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: blueviolet;
-    color:white;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    padding: 2rem;
+    min-height: 100vh;
 }
 .container{
     display:flex;
     flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 16rem;
+    width: 100rem;
+}
+
+#title {
+    justify-content: center;
+    align-content: center;
+    text-align: center;
 }
 #survey-form{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-content: center;
     border-style: groove;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+#Name {
+    margin-bottom: 10px;
+
+}
+#Name input {
+    width: 100%;
+}
+#Age {
+    margin-bottom: 10px;
+}
+#email {
+    margin-bottom: 10px;
+}
+#consoles {
+    margin-bottom: 10px;
+}
+#Totally{
+    margin-bottom: 10px;
+}
+#Maybe {
+    margin-bottom: 10px;
+    
+}
+
+
+#favthing{
+    margin-bottom: 10px;
+
+}
+#Facebook {
+    margin-bottom: 10px;
+}
+
+#Instagram {
+    margin-bottom: 10px;
+}
+
+
+#Twitter {
+    margin-bottom: 10px;
+}
+
+#Reddit {
+    margin-bottom: 10px;
+}
+#Discord {
+    margin-bottom: 10px;
+}
+#Slack  {
+    margin-bottom: 10px;
+}
+.btn {
+    padding: 10px 50px;
+    background: blue;
+    color: white;
+    border-radius: 5px;
+    align-content: center;
+
 }
