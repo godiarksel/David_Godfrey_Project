@@ -11,5 +11,5 @@ body {
 #survey-form{
     display: flex;
     flex-direction: column;
-    border-style: groove
+    border-style: groove;
 }
